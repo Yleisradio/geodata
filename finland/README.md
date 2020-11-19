@@ -1,6 +1,15 @@
 # Finland
 
-All maps are saved in WGS-84 projection and topojson format.
+All maps are saved in WGS-84 projection and topojson format. Scale is 1:4.5m.
+
+## finland-regions-2020.topo.json
+
+field | Example value | description
+----- | ------------- | -----------
+id    |	01            | Official region number (00 format)
+name	| Uusimaa       | Name in English
+nimi	| Uusimaa       | Name in Finnish
+namn	| Nyland        | Name in Swedish
 
 ## finland-munis-2020.topo.json
 
