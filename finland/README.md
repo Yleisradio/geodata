@@ -36,3 +36,17 @@ namn  | Lappland      | Shortened name in Swedish
 namn_long	| Lapplands sjukvårdsdistrikt | Full name in Swedish
 specialdistrict | OYS | ID of the special district to where the district belongs
 population  | 117171  | Total population of the district
+
+## finland-hva-2021.topo.json
+
+Combined map with two layers: `munis` and `hva` (hyvinvointialueet = "wellbeing services counties").
+
+field | Example value | description
+----- | ------------- | -----------
+id	  | L             | Official municipality id
+name_fi  | Vaasa         | Full name in Finnish
+name_sv  | Vasa      | Full name in Swedish
+hva_id | PO | ID of the HVA to where the municipality belongs
+population  | 67551  | Population in december 2020
+
+The `hva` layer also contains the fields `short_name_fi` and `short_name_sv`.
